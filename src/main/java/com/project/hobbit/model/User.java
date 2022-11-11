@@ -1,13 +1,42 @@
 package com.project.hobbit.model;
 
+import javax.persistence.*;
 import java.util.*;
 
+@Entity(name = "User")
+@Table(name = "user")
 public class User {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
+    @Column(
+            name = "name",
+            nullable = false,
+            columnDefinition = "TEXT"
+    )
     private String name;
+    @Column(
+            name = "surname",
+            nullable = false,
+            columnDefinition = "TEXT"
+    )
     private String surname;
+    @Column(
+            name = "email",
+            nullable = false,
+            columnDefinition = "TEXT"
+    )
     private String email;
+    @Column(
+            name = "cellNum",
+            columnDefinition = "TEXT"
+    )
     private String cellNum;
+    @Column(
+            name = "password",
+            nullable = false
+    )
     private String password;
 
     public User(String name, String surname, String email, String cellNum, String password) {
@@ -16,6 +45,10 @@ public class User {
         this.email = email;
         this.cellNum = cellNum;
         this.password = password;
+    }
+
+    public User() {
+
     }
 
     public UUID getId() {
