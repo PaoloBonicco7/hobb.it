@@ -12,25 +12,21 @@ public class User {
     private UUID id;
     @Column(
             name = "name",
-            nullable = false,
-            columnDefinition = "TEXT"
+            nullable = false
     )
     private String name;
     @Column(
             name = "surname",
-            nullable = false,
-            columnDefinition = "TEXT"
+            nullable = false
     )
     private String surname;
     @Column(
             name = "email",
-            nullable = false,
-            columnDefinition = "TEXT"
+            nullable = false
     )
     private String email;
     @Column(
-            name = "cellNum",
-            columnDefinition = "TEXT"
+            name = "cellNum"
     )
     private String cellNum;
     @Column(
