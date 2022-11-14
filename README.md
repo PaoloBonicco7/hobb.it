@@ -24,6 +24,8 @@ DB_PASSWORD=
   * [Repo gitflow tutorial](https://github.com/nvie/gitflow)
   * [Link toJeff Kreeftmeijer's blog post](https://jeffkreeftmeijer.com/git-flow/)
 
+solo una prova
+
 - Docker e Kubernetes
   * [Intro - 1 hour](https://www.youtube.com/watch?v=s_o8dwzRlu4)
   * [FreeCodeCamp - full course 6 hours](https://www.youtube.com/watch?v=kTp5xUtcalw)
