@@ -5,6 +5,16 @@ who help you improve.
 
 ## [TRELLO](https://docs.google.com/presentation/d/1UJSlD9pGOY5A_PhwZ1-7U3vYYep9M9IpqFGmYQPYado/edit?usp=sharing)
 
+## How to setup the application
+Create a .env file in the root directory of the project and insert tha value you need in application.properties
+Example of env.properties file:
+```
+DB_DATABASE=/localhost:5432/hobbit
+DB_USER=
+DB_PASSWORD=
+```
+[link](https://medium.com/@Marou_arnault/spring-boot-hide-your-credentials-fb1ca22ae911)
+
 ## Tutorial
 #### List of videos and resources to learn how to use the main tools we used to build the application
 
