@@ -11,6 +11,7 @@ who help you improve.
 - GitFlow e Git
   * [Intro - 10 min](https://www.youtube.com/watch?v=gW6dFpTMk8s)
   * [FreeCodeCamp - GitFlow](https://www.youtube.com/watch?v=Uszj_k0DGsg&t=58s)
+  * [Repo gitflow tutorial](https://github.com/nvie/gitflow)
 
 - Docker e Kubernetes
   * [Intro - 1 hour](https://www.youtube.com/watch?v=s_o8dwzRlu4)
