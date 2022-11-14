@@ -22,6 +22,7 @@ DB_PASSWORD=
   * [Intro - 10 min](https://www.youtube.com/watch?v=gW6dFpTMk8s)
   * [FreeCodeCamp - GitFlow](https://www.youtube.com/watch?v=Uszj_k0DGsg&t=58s)
   * [Repo gitflow tutorial](https://github.com/nvie/gitflow)
+  * [Link toJeff Kreeftmeijer's blog post](https://jeffkreeftmeijer.com/git-flow/)
 
 - Docker e Kubernetes
   * [Intro - 1 hour](https://www.youtube.com/watch?v=s_o8dwzRlu4)
