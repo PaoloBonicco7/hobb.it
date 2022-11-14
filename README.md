@@ -3,12 +3,14 @@
 Hobb.it is an application that helps you cultivate your hobbies by connecting you with experts
 who help you improve.
 
+## [TRELLO](https://docs.google.com/presentation/d/1UJSlD9pGOY5A_PhwZ1-7U3vYYep9M9IpqFGmYQPYado/edit?usp=sharing)
+
 ## Tutorial
 #### List of videos and resources to learn how to use the main tools we used to build the application
 
 - GitFlow e Git
   * [Intro - 10 min](https://www.youtube.com/watch?v=gW6dFpTMk8s)
-  * [FreeCodeCamp](https://www.youtube.com/watch?v=Uszj_k0DGsg&t=58s)
+  * [FreeCodeCamp - GitFlow](https://www.youtube.com/watch?v=Uszj_k0DGsg&t=58s)
 
 - Docker e Kubernetes
   * [Intro - 1 hour](https://www.youtube.com/watch?v=s_o8dwzRlu4)
