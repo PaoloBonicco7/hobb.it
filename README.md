@@ -22,8 +22,8 @@ who help you improve.
 
 
 ## ToDo:
-  * List of videos and resources to learn how to use the main tools used to build the application
-  * Adding basic methods for classes (CRUD)
+
+* Adding basic methods for classes (CRUD)
     - User - Done 
     - ...
 
