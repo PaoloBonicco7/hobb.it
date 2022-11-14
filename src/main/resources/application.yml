@@ -1,0 +1,50 @@
+#spring.config.import=file:config.yml
+#spring.datasource.url=jdbc:postgresql:/${DB_DATABASE}
+#spring.datasource.username=${DB_USER}
+#spring.datasource.password=${DB_PASSWORD}
+#spring.jpa.hibernate.ddl-auto=create-drop
+#spring.jpa.show-sql=true
+##spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+##spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults = false
+#spring.jpa.properties.hibernate.format_sql=true
+#spring.jpa.properties.hibernate.globally_quoted_identifiers=true
+
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  datasource:
+    password:
+    url: jdbc:postgresql://localhost:5432/hobbit
+    username:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
+  mail: # Configuration for the SMTP server
+    host: localhost
+    port: 1025 # Check from docker/process running
+    username: hello # doesnt matter
+    password: hello # doesnt matter
+
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+
+
