@@ -3,7 +3,9 @@
 Hobb.it is an application that helps you cultivate your hobbies by connecting you with experts
 who help you improve.
 
-## [TRELLO](https://docs.google.com/presentation/d/1UJSlD9pGOY5A_PhwZ1-7U3vYYep9M9IpqFGmYQPYado/edit?usp=sharing)
+### [TRELLO](https://docs.google.com/presentation/d/1UJSlD9pGOY5A_PhwZ1-7U3vYYep9M9IpqFGmYQPYado/edit?usp=sharing)
+
+### [Link Client Mail Testing](https://github.com/maildev/maildev)
 
 ## How to setup the application
 Create a .env file in the root directory of the project and insert tha value you need in application.properties

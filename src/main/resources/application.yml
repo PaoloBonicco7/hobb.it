@@ -1,4 +1,4 @@
-#spring.config.import=file:config.yml
+#spring.config.import=file:config.properties
 #spring.datasource.url=jdbc:postgresql:/${DB_DATABASE}
 #spring.datasource.username=${DB_USER}
 #spring.datasource.password=${DB_PASSWORD}

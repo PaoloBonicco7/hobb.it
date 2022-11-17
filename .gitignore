@@ -34,7 +34,7 @@ build/
 .vscode/
 
 ### Configuration files ###
-config.yml
+config.properties
 
 ### Notes Paolo
 /Notes.md
