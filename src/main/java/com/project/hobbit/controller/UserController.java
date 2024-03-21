@@ -12,30 +12,34 @@ import java.util.*;
 @RestController
 @RequestMapping("api/v1")
 public class UserController {
-    @Autowired
-    UserRepository repository;
+
+    private final UserRepository userRepository;
+
+    public UserController(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     @PostMapping(value = "/user/create")
     public User postUser(@RequestBody User user) {
-        return repository.save(new User(user.getName(), user.getSurname(), user.getEmail(), user.getCellNum(), user.getPassword()));
+        return userRepository.save(new User(user.getName(), user.getSurname(), user.getEmail(), user.getCellNum(), user.getPassword()));
     }
 
     @GetMapping(value = "/users")
     public List<User> getUsers() {
         List<User> users = new ArrayList<>();
-        repository.findAll().forEach(users::add);
+        userRepository.findAll().forEach(users::add);
         return users;
     }
 
     @DeleteMapping(value = "/user/delete/{id}")
     public ResponseEntity<String> deleteUserById(@PathVariable("id") UUID id) {
-        repository.deleteById(id);
+        userRepository.deleteById(id);
         return new ResponseEntity<>("Utente cancellato correttamente", HttpStatus.OK);
     }
 
     @PutMapping(value = "/user/{id}")
     public ResponseEntity<User> putUser(@PathVariable("id") UUID id, @RequestBody User user) {
-        Optional<User> userData = repository.findById(id);
+        Optional<User> userData = userRepository.findById(id);
         if (userData.isPresent()) {
             User _user = userData.get();
             _user.setName(user.getName());
@@ -43,7 +47,7 @@ public class UserController {
             if (user.getEmail() != null) {
                 _user.setEmail(user.getEmail());
             }
-            return new ResponseEntity<>(repository.save(_user), HttpStatus.OK);
+            return new ResponseEntity<>(userRepository.save(_user), HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
