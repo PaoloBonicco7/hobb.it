@@ -3,7 +3,6 @@ package com.project.hobbit.model;
 import javax.persistence.*;
 import java.util.*;
 
-// prova
 @Entity(name = "User")
 @Table(name = "user")
 public class User {
