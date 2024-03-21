@@ -3,17 +3,19 @@
 Hobb.it is an application that helps you cultivate your hobbies by connecting you with experts
 who help you improve.
 
-## [TRELLO](https://docs.google.com/presentation/d/1UJSlD9pGOY5A_PhwZ1-7U3vYYep9M9IpqFGmYQPYado/edit?usp=sharing)
+## [TRELLO Progect Management](https://trello.com/invite/b/5NG6yKLH/ATTI752acea2649c04123a20d68999edf71c80E22838/project-management)
+## [TRELLO Progect Development](https://trello.com/invite/b/Pa3k8GaW/ATTI9a5a38796b47fb575ddcb9a6eb1470b1921BF7FD/project-development)
+
 
 ## How to setup the application
-Create a "env.properties" in the root directory of the project and insert tha value you need in application.properties
+Create a .env file in the root directory of the project and insert tha value you need in application.properties
 Example of env.properties file:
 ```
 DB_DATABASE=/localhost:5432/hobbit
 DB_USER=
 DB_PASSWORD=
 ```
-[link basic commands](https://medium.com/@Marou_arnault/spring-boot-hide-your-credentials-fb1ca22ae911)
+[link](https://medium.com/@Marou_arnault/spring-boot-hide-your-credentials-fb1ca22ae911)
 
 ## Tutorial
 #### List of videos and resources to learn how to use the main tools we used to build the application
